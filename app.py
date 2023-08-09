@@ -4,7 +4,7 @@ st.title('Selamat Datang!!')
 st.header('Ini adalah simulasi untuk tahu kamu harus nabung berapa perbulan untuk punya barang impianmu.')
 
 barang = st.text_input(label='Apa barang impianmu?',
-                       value='Smartwatch')
+                       value='contoh: smartwatch')
 harga = st.number_input(label='Berapa kira-kira harganya?', 
                         step=1,
                         value=1000000)
