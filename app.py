@@ -29,7 +29,7 @@ bulan = (umurNanti - umurSekarang) * 12
 revisi = int(harga/bulan)
 
 if (bulan * nabung) >= harga:
-    hasil =f'Yeayyy!!! Saat umur kamu {umurSekarang}, kamu bakal punya {barang}.'
+    hasil =f'Yeayyy!!! Saat umur kamu {umurNanti}, kamu bakal punya {barang}.'
 else:
     hasil = f'Aduuhh... Kayaknya kurang deh kalo nabung segitu. Kamu perlu nabung Rp{revisi:,} untuk beli {barang} impian kamu. Tetap semangat, yaaa...'
 
